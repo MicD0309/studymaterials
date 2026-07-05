@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "name": "trynow.md",
+    "title": "TryNow",
+    "description": "Study notes for Malay.",
+    "category": "Malay",
+    "tags": [
+      "Notes"
+    ],
+    "fileExtension": "md",
+    "size": "0.0 KB",
+    "path": "study-materials/trynow.md",
+    "content": "tryit now",
+    "id": "malay-1783265005518",
+    "addedAt": "2026-07-05T15:23:25.518Z",
+    "sha": "bd5fbb604c12c1712a54e1d11900eb2bcd7056c0"
+  }
+]
