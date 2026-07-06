@@ -1,18 +1,1 @@
-[
-  {
-    "name": "binary-search-cheatsheet.md",
-    "title": "Try",
-    "description": "try",
-    "category": "Chinese",
-    "tags": [
-      "Research"
-    ],
-    "fileExtension": "md",
-    "size": "1.8 KB",
-    "path": "study-materials/binary-search-cheatsheet.md",
-    "content": "# Binary Search Optimization & Edge Cases\n\nBinary search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item, until you've narrowed down the possible locations to just one.\n\n## The Standard Template\n\n```typescript\nfunction binarySearch(nums: number[], target: number): number {\n    let left = 0;\n    let right = nums.length - 1;\n\n    while (left <= right) {\n        // Prevent potential overflow\n        const mid = Math.floor(left + (right - left) / 2);\n\n        if (nums[mid] === target) {\n            return mid;\n        } else if (nums[mid] < target) {\n            left = mid + 1;\n        } else {\n            right = mid - 1;\n        }\n    }\n    return -1;\n}\n```\n\n## Search Space Minimization Template\nSometimes, you aren't searching for an exact number, but rather the *first* or *last* element satisfying a condition.\n\n### 1. Find First Occurrence (Lower Bound)\n```typescript\nfunction findFirst(nums: number[], target: number): number {\n    let left = 0;\n    let right = nums.length; // Notice right is nums.length\n\n    while (left < right) {\n        const mid = Math.floor(left + (right - left) / 2);\n        if (nums[mid] >= target) {\n            right = mid; // Search left half\n        } else {\n            left = mid + 1; // Search right half\n        }\n    }\n    return left;\n}\n```\n\n### 2. Find Last Occurrence (Upper Bound)\n```typescript\nfunction findLast(nums: number[], target: number): number {\n    let left = 0;\n    let right = nums.length;\n\n    while (left < right) {\n        const mid = Math.floor(left + (right - left) / 2);\n        if (nums[mid] > target) {\n            right = mid;\n        } else {\n            left = mid + 1;\n        }\n    }\n    return left - 1;\n}\n```\n\n## Complexity\n- **Time Complexity:** $O(\\log n)$\n- **Space Complexity:** $O(1)$\n",
-    "id": "chinese-1783349020079",
-    "addedAt": "2026-07-06T14:43:40.079Z",
-    "sha": "bdeb296a715f55cd5f406463d0bbd993a69d969e"
-  }
-]
+[]
