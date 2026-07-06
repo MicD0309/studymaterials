@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "name": "first-website-try.md",
+    "title": "First website try",
+    "description": "im excited broo",
+    "category": "English",
+    "tags": [
+      "Notes"
+    ],
+    "fileExtension": "md",
+    "size": "0.1 KB",
+    "path": "study-materials/English/first-website-try.md",
+    "content": "lets goooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
+    "id": "english-1783352696409",
+    "addedAt": "2026-07-06T15:44:56.409Z",
+    "sha": "0eb02025639698a900b87209a405f137992f4668"
+  }
+]
