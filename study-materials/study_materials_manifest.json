@@ -1,21 +1,5 @@
 [
   {
-    "name": "trymalay.md",
-    "title": "trymalay",
-    "description": "Study notes for Malay.",
-    "category": "Malay",
-    "tags": [
-      "Notes"
-    ],
-    "fileExtension": "md",
-    "size": "0.0 KB",
-    "path": "study-materials/Malay/trymalay.md",
-    "content": "trybugs",
-    "id": "malay-1783349699406",
-    "addedAt": "2026-07-06T14:54:59.406Z",
-    "sha": "dc96f361f23a579fe76b18cd302738272ec21418"
-  },
-  {
     "name": "binary-search-cheatsheet.md",
     "title": "Try",
     "description": "try",
